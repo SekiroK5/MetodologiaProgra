@@ -1,11 +1,11 @@
-algoritmo Mostrar_Calificacion
+algoritmo Mostrar_Calificaciones
 	definir clave,c,calif,mostrarClave  como numerico;
 	definir mostrar_calif como cadena;
 	dimension clave[11];
 	para c<-1 hasta 10 con paso 1 hacer
+		escribir "-";
 		escribir "Digite la calificacion del estudiante con clave ",c;
 		leer calif;
-		escribir "-";
 		si calif>=0 y calif <=10 entonces
 			clave[c]<-calif;
 		sino
@@ -13,6 +13,10 @@ algoritmo Mostrar_Calificacion
 			c<-c-1;
 		finsi
 	finpara
+	Para c<-1 hasta 10 con paso 1 hacer
+		escribir sinsaltar c,"=  ",clave[c],"|";
+	finpara
+	escribir "-";
 	escribir "Desea mostrar la calificacion de algun estudiante? (Si, No)";
 	leer mostrar_calif;
 	Si mostrar_calif ="Si" entonces
