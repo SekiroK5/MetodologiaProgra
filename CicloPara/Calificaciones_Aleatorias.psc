@@ -1,24 +1,24 @@
-algoritmo Calificaciones_Aleatorias
-	definir calif como entero;
-	dimension calif[21];
-	definir mayor,menor,c,p como numerico;
-	mayor <-0;
+Proceso Calificaciones
+	Definir c Como Entero;
+	Definir mayor, menor, p Como Entero;
+	Definir num Como Entero;
+	mayor<-0;
 	menor<-10;
 	p<-0;
-	para c<-1 hasta 20 con paso 1 hacer
-		calif[c]<- azar(11);
-		p<-p+calif[c];
-		escribir SinSaltar calif[c],"  ";
-		si calif[c] >mayor entonces
-			mayor<-calif[c];
-		sino 
-			si calif[c] <menor entonces
-				menor<-calif[c];
-			finsi
-		finsi
-	finpara
+	Escribir "Las calificaciones son";
+	para c<-1 Hasta 20 con paso 1 Hacer
+		num <- azar(11);
+		p<-p+num;
+		Escribir Sin Saltar num, " ";
+		si num > mayor Entonces
+			mayor<-num;
+		FinSi
+		si num<menor Entonces
+			menor<-num;
+		FinSi
+	FinPara
 	Escribir " ";
-	escribir "El promedio es ",p/20;
-	escribir "La calificacion mas baja fue ",menor;
-	escribir "La calificacion mas alta fue ",mayor;
-finalgoritmo
+	Escribir "La calificación más alta es: ", mayor;
+	Escribir "La calificación más baja es: ", menor;
+	Escribir "El promedio es: ", p/20;
+FinProceso
