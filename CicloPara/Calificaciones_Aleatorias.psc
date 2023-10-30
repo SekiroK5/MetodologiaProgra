@@ -6,7 +6,7 @@ algoritmo Calificaciones_Aleatorias
 	menor<-10;
 	p<-0;
 	para c<-1 hasta 20 con paso 1 hacer
-		calif[c]<- azar(10);
+		calif[c]<- azar(11);
 		p<-p+calif[c];
 		escribir SinSaltar calif[c],"  ";
 		si calif[c] >mayor entonces
