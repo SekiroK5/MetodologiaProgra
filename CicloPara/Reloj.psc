@@ -25,4 +25,5 @@ Proceso Reloj
 		m<-0;
 		s<-0;
 	FinPara
+       Escribir "Fin del día";
 FinProceso
