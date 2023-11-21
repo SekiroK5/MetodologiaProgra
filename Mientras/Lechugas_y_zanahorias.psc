@@ -1,3 +1,7 @@
+//Chavero Martínez Noé 
+//Plantación de lechugas y zanahorias en parcelas de 10
+//21/11/2023
+//noe.ch.mtz97@gmail.com
 Proceso Lechugas_y_zanahorias
 	Definir c, cantidad Como Entero;
 	Escribir "Ingrese la cantidad que desea plantar";
