@@ -1,3 +1,7 @@
+//Chavero Martínez Noé 
+//Validación de correo electronico
+//21/11/2023
+//noe.ch.mtz97@gmail.com
 Proceso Correo_Electronico_mientras
 	Definir correo como texto;
 	Definir ar, pu, lon, c Como Entero;
