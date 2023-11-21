@@ -1,8 +1,11 @@
+//Chavero MartÃ­nez NoÃ©
+//noe.ch.mtz97@gmail.com
+//validar que la letra sea una vocal acentuada o no
 Proceso Vocales
 	Definir v Como Caracter;
 	Repetir
 		Escribir "Ingresa una vocal";
 		Leer v;
-	Hasta Que v="a" o v="e" o v="i" o v="o" o v="u" o v="á" o v="é" o v="í" o v="ó" o v="ú"
+	Hasta Que v="a" o v="e" o v="i" o v="o" o v="u" o v="Ã¡" o v="Ã©" o v="Ã­" o v="Ã³" o v="Ãº"
 	Escribir "Has ingresado la letra correcta";
 FinProceso
