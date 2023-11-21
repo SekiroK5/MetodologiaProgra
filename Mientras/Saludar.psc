@@ -1,3 +1,7 @@
+//Chavero Martínez Noé 
+//Manda 10 saludos
+//21/11/2023
+//noe.ch.mtz97@gmail.com
 Proceso Saludar
 	Definir cont Como Entero;
 	cont<-1;
