@@ -1,6 +1,10 @@
+//Chavero Martínez Noé 
+//Conteo regresivo
+//21/11/2023
+//noe.ch.mtz97@gmail.com
 Proceso Regresivo
 	Definir cuenta, cont Como Entero;;
-	Escribir "Ingresa el n�mero de donde quiera empezar";
+	Escribir "Ingresa el número de donde quiera empezar";
 	Leer cuenta;
 	cont<-0;
 	Mientras cuenta > cont Hacer
