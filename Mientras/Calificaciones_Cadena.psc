@@ -1,3 +1,7 @@
+//Chavero Martínez Noé 
+//Ejercicio hecho en clase para la demostración de obtención de calificaciones
+//21/11/2023
+//noe.ch.mtz97@gmail.com
 Proceso Calificaciones_Cadena
 	Definir  calif como cadena;
 	Definir contador como entero;
